@@ -1,0 +1,105 @@
+<html>
+<head>
+        <title>Viki</title>
+
+        <link rel="stylesheet" type="text/css" href="//thomasjoulin.github.io/viki/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="//thomasjoulin.github.io/viki/ios.css" media="screen">
+        
+        <style type="text/css">
+            html
+            {
+                overflow: hidden;
+                margin: 0px;
+                padding: 0px
+            }
+
+            body
+            {
+                background-color: #fff;
+                overflow: hidden;
+                margin: 0px;
+                padding: 0px;
+                font-family: "Helvetica Neue";
+            }
+
+            img
+            {
+                display: block;
+                width: 120px;
+                height: 120px;
+                margin: 20px auto 0 auto;
+            }
+
+            h1, h2
+            {
+                text-align: center;
+            }
+
+            h1, h3
+            {
+                color:#0b0007;    
+            }
+
+            h1
+            {
+                font-size: 24px;
+            }
+
+            h2, li
+            {
+                color:#666666;    
+            }
+
+            h2
+            {
+                font-size: 22px;
+                font-weight: 300;
+            }
+
+            h3
+            {
+                margin: 40 25px 15px 25px;
+            }
+
+            a
+            {
+                display: block;
+                margin: auto;
+                color:#ffffff;
+                width: 190px;
+                height: 40px;
+                margin-top: 20px;
+                text-align: center;
+                padding-top: 10px;
+                font-size: 24px;
+                text-decoration: none;
+                background-color: #0c9bff;
+                border-radius:10px;
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            a.active
+            {
+                background-color: #0c9bff;
+            }
+
+            img
+            {
+                -webkit-mask-box-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0NmM5YzFkMC04YWQ3LTQ1YTAtYjIwOS1mYjg2MDhmZWJkYTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzk3MzM4RTBFN0JCMTFFMzkwNDBFRDkxRkI1QzhGM0MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzk3MzM4REZFN0JCMTFFMzkwNDBFRDkxRkI1QzhGM0MiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDZjOWMxZDAtOGFkNy00NWEwLWIyMDktZmI4NjA4ZmViZGE0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ2YzljMWQwLThhZDctNDVhMC1iMjA5LWZiODYwOGZlYmRhNCIvPiA8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');
+            }
+        </style>
+
+        <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />     
+</head>
+
+<body>
+        <img src="icon.png" />
+
+        <div>
+            <h1>Viki</h1>
+            <h2>Version: 5.6</h2>
+        </div>
+        <a href="itms-services://?action=download-manifest&url=https://thomasjoulin.github.io/player/VikiPlayer.plist">Install</a>
+</body>
+
+</html>
