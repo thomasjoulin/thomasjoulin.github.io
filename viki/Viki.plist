@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://bitrise-prod-build-storage.s3.amazonaws.com/builds/197e7bbf60201543/artifacts/22319206/Viki-ios-adhoc-AdhocProduction.ipa?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIV2YZWMVCNWNR2HA%2F20190930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190930T080341Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4aabbd39bf369a626065a94d50c20e0ecd538f128a9b87b9334ecc9b31ede0a6</string>
+					<string>https://thomasjoulin.github.io/viki/Viki.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
