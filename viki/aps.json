@@ -1,0 +1,96 @@
+{
+	"ext": {
+		"amznregion": ["uspdx"],
+		"amznbrmId": ["Ql5XJ0PY3kbBgxOxHbCy8S8AAAF75_cJzgYAAA_ABoivzR8"]
+	},
+	"cur": "USD",
+	"instrPixelURL": "http://aax-us-pdx.amazon-adsystem.com/x/px/Imx6XuSQ9C3wowT5IO3zv_QAAAF75_cJpQYAAA_ABsfirTw/{\"c\":\"ottclient\",\"alc2s\":ROUND_TRIP_TIME,\"lfatc2s\":TIMEOUT_BOOLEAN}",
+	"id": "36ee97f4-21f-4c78-93c1-2aa63f84bee9",
+	"seatbid": [{
+		"bid": [{
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott8_4032"]
+				}
+			},
+			"impid": "Imx6XuSQ9C3wowT5IO3zv_QAAAF75_cJpQYAAA_ABsfirTw"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott11_4005"]
+				}
+			},
+			"impid": "Ip3PiBJzlYO0q0-_9k1mcdEAAAF75_cJpgYAAA_ABlFUE_o"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott9_4005"]
+				}
+			},
+			"impid": "Iq9moyFlCbC_1qdv8bG2BzoAAAF75_cJqAYAAA_ABgqSQK4"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott10_4032"]
+				}
+			},
+			"impid": "IjkX0Ztlf0KWMLhPIUr77k8AAAF75_cJrAYAAA_ABuws_Mo"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott7_4005"]
+				}
+			},
+			"impid": "IopWby4OsCtwQYzHlabS_04AAAF75_cJrgYAAA_ABuMf2a0"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott13_4032"]
+				}
+			},
+			"impid": "Iiq8Z5sSPcnU_FDJOLhO-fAAAAF75_cJsQYAAA_ABvt4hGo"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott12_4005"]
+				}
+			},
+			"impid": "InFsUgwVifuOXW0FK9Z8d2oAAAF75_cJswYAAA_ABj8qevU"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott11_4032"]
+				}
+			},
+			"impid": "IhKSv2egsmbjhGgTEamrkjwAAAF75_cJtgYAAA_ABpfutKw"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott8_4005"]
+				}
+			},
+			"impid": "IoG7d3M6Q2q0VR-hIL5GcdgAAAF75_cJuQYAAA_ABgk1qkA"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott12_4032"]
+				}
+			},
+			"impid": "Ip1UuMrQoI9-0IXEtZ3tcJkAAAF75_cJugYAAA_ABir8fdk"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott10_4005"]
+				}
+			},
+			"impid": "Ih5hA0lXxeHQTrClQbvLvncAAAF75_cJuwYAAA_ABtX7miw"
+		}, {
+			"ext": {
+				"targeting": {
+					"amznslots": ["ott9_4032"]
+				}
+			},
+			"impid": "IpVjJ_erTVCRNQgil73rU9UAAAF75_cJvAYAAA_ABvTeL0Y"
+		}]
+	}]
+}
